@@ -1,0 +1,26 @@
+{
+    "name": "example/resources",
+    "description": "",
+    "authors": [
+        {
+            "name": "Developer",
+            "email": "developer@example.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Resources\\Providers\\ResourcesServiceProvider"
+            ],
+            "aliases": {
+                
+            },
+            "module-dir": "Resources"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Resources\\": ""
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "name": "example/news",
+    "description": "",
+    "authors": [
+        {
+            "name": "Developer",
+            "email": "developer@example.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\News\\Providers\\NewsServiceProvider"
+            ],
+            "aliases": {
+                
+            },
+            "module-dir": "News"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\News\\": ""
+        }
+    }
+}

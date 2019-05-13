@@ -1,0 +1,26 @@
+{
+    "name": "example/files",
+    "description": "",
+    "authors": [
+        {
+            "name": "Developer",
+            "email": "developer@example.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Files\\Providers\\FilesServiceProvider"
+            ],
+            "aliases": {
+                
+            },
+            "module-dir": "Files"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Files\\": ""
+        }
+    }
+}

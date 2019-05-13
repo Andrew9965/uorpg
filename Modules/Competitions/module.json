@@ -1,0 +1,16 @@
+{
+    "name": "Competitions",
+    "alias": "competitions",
+    "description": "competitions page",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\Competitions\\Providers\\CompetitionsServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

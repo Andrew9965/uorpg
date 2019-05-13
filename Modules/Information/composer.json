@@ -1,0 +1,26 @@
+{
+    "name": "example/information",
+    "description": "",
+    "authors": [
+        {
+            "name": "Developer",
+            "email": "developer@example.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Information\\Providers\\InformationServiceProvider"
+            ],
+            "aliases": {
+                
+            },
+            "module-dir": "Information"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Information\\": ""
+        }
+    }
+}

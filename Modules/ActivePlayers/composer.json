@@ -1,0 +1,26 @@
+{
+    "name": "example/activeplayers",
+    "description": "",
+    "authors": [
+        {
+            "name": "Developer",
+            "email": "developer@example.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\ActivePlayers\\Providers\\ActivePlayersServiceProvider"
+            ],
+            "aliases": {
+                
+            },
+            "module-dir": "ActivePlayers"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\ActivePlayers\\": ""
+        }
+    }
+}

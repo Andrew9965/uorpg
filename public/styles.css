@@ -1,0 +1,106 @@
+/*Стилі для таблиці*/
+
+.content-resources table {
+    width: 100%;
+    border-collapse: inherit;
+    border-spacing: 0; }
+.content-resources table thead tr {
+    background-color: rgba(21, 43, 17, 0.5);
+    margin-bottom: 6px; }
+.content-resources table tbody tr:first-child td {
+    border-top: 4px solid transparent; }
+.content-resources table td {
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    border-right: 2px solid transparent;
+    border-left: 2px solid transparent;
+    text-align: center;
+    font-weight: 300;
+    line-height: 15px;
+    text-shadow: 2.4px 1.8px 1.2px rgba(0, 0, 0, 0.15);
+    color: #9c9274;
+    font-family: "Roboto";
+    font-size: 15px;
+    background-color: rgba(0, 0, 0, 0.2);
+    background-clip: padding-box;
+    padding: 8px 4px; }
+.content-resources table td:nth-child(1) div, .content-resources table td:nth-child(4) div {
+    width: 69px;
+    min-height: 80px;
+    position: relative;
+    -ms-flex-negative: 0;
+    flex-shrink: 0; }
+.content-resources table td:nth-child(1) div img, .content-resources table td:nth-child(4) div img {
+    display: block;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto; }
+.content-resources table td:first-child {
+    border-right: 2px solid transparent;
+    border-left: 0 solid transparent; }
+.content-resources table td:last-child {
+    border-right: 0 solid transparent;
+    border-left: 2px solid transparent; }
+.content-resources table td span {
+    font-size: 13px;
+    text-shadow: 2.4px 1.8px 1.2px rgba(0, 0, 0, 0.15);
+    color: #9c9274;
+    display: block; }
+.content-resources table td .bold {
+    color: #8e8569;
+    display: inline;
+    font-weight: 700; }
+.content-resources table th {
+    text-align: center;
+    text-shadow: 2.4px 1.8px 1.2px rgba(0, 0, 0, 0.15);
+    color: #976f3b;
+    font-family: "Roboto";
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 15px;
+    padding: 8px; }
+.content-resources table th:nth-child(1) {
+    width: 69px; }
+.content-resources table th:nth-child(2) {
+    width: 85px; }
+.content-resources table th:nth-child(3) {
+    width: 89px; }
+.content-resources table th:nth-child(4) {
+    width: 69px; }
+.content-resources table th:nth-child(5) {
+    width: 87px; }
+.content-resources table th:nth-child(6) {
+    width: 87px; }
+.content-resources table th:nth-child(7) span {
+    padding: 8px 55px; }
+
+/*Стилі для посилання і списку*/
+.content-files__wrap a {
+    letter-spacing: 0;
+    text-shadow: 2.4px 1.8px 1.2px rgba(0, 0, 0, 0.15);
+    font-family: "Roboto";
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 16px;
+    -webkit-transition: color 0.3s linear;
+    transition: color 0.3s linear;
+    color: #b18549; }
+.content-files__wrap a:hover {
+    color: rgba(211, 205, 194, 0.9); }
+
+.content-files__wrap ul {
+    letter-spacing: 0;
+    text-shadow: 2.4px 1.8px 1.2px rgba(0, 0, 0, 0.15);
+    font-family: "Roboto";
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 16px;
+    margin-bottom: 16px;
+    color: #9c9274; }

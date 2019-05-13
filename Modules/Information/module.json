@@ -1,0 +1,16 @@
+{
+    "name": "Information",
+    "alias": "information",
+    "description": "Information page",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\Information\\Providers\\InformationServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

@@ -1,0 +1,25 @@
+<?php
+
+return array (
+  'email' => 'E-mail',
+  'login' => 'Login',
+  'enter' => 'Login',
+  'exit' => 'Logout',
+  'lost_password' => 'Lost password?',
+  'reset_password ' => 'Reset password',
+  'register' => 'Register',
+  'social_login' => 'Или войдите через соц.сети:',
+  'password' => 'Password',
+  'remember_me' => 'Remember Me',
+  'gone_register' => 'зарегистрироваться',
+  'repeat_password' => 'Повторите пароль',
+  'continue' => 'Продолжить',
+  'end_register' => 'Завершить регистрацию',
+  'pass_all_info' => 'Внимание! Чтобы использовать все функции, пожалуйста заполните профиль.',
+  'contact_data' => '1. Контактные данные',
+  'email_confirmed' => 'E-mail подтвержден',
+  'phone_number' => 'Номер телефона',
+  'info_fillable' => 'Все поля обязательны для заполнения.',
+  'failed' => 'These credentials do not match our records.',
+  'throttle' => 'Too many login attempts. Please try again in :seconds seconds.',
+);

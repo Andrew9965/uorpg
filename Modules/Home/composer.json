@@ -1,0 +1,26 @@
+{
+    "name": "example/home",
+    "description": "",
+    "authors": [
+        {
+            "name": "Developer",
+            "email": "developer@example.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Home\\Providers\\HomeServiceProvider"
+            ],
+            "aliases": {
+                
+            },
+            "module-dir": "Home"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Home\\": ""
+        }
+    }
+}

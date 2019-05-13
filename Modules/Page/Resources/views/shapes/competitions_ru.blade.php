@@ -1,0 +1,1 @@
+<p>{!!$collapse_item("header")!!}</p>

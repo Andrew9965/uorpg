@@ -1,0 +1,16 @@
+{
+    "name": "Fractions",
+    "alias": "fractions",
+    "description": "fractions page",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\Fractions\\Providers\\FractionsServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

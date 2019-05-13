@@ -1,0 +1,26 @@
+{
+    "name": "example/fractions",
+    "description": "",
+    "authors": [
+        {
+            "name": "Developer",
+            "email": "developer@example.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Fractions\\Providers\\FractionsServiceProvider"
+            ],
+            "aliases": {
+                
+            },
+            "module-dir": "Fractions"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Fractions\\": ""
+        }
+    }
+}

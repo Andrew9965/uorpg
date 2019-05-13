@@ -1,0 +1,13 @@
+input.content {
+    min-height: 0 !important;
+    padding: 6px 12px !important;
+    margin: 0 !important;
+}
+
+.lang-tabs li a {
+    padding: 0 5px 0 5px;
+}
+
+.lang-tabs {
+    border-bottom: none;
+}

@@ -1,0 +1,26 @@
+{
+    "name": "example/competitions",
+    "description": "",
+    "authors": [
+        {
+            "name": "Developer",
+            "email": "developer@example.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Competitions\\Providers\\CompetitionsServiceProvider"
+            ],
+            "aliases": {
+                
+            },
+            "module-dir": "Competitions"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Competitions\\": ""
+        }
+    }
+}

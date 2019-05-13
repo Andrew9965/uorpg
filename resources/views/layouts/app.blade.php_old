@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="{{ app()->getLocale() }}">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+
+    @yield('SEO')
+    @yield('title')
+    @include('_partials._head')
+
+</head>
+<body>
+<div class="l-wrapper">
+    @include('_partials._fake_header')
+    <main>
+        @include('_partials._header')
+        <div class="c-basic">
+            @include('_partials._left_aside')
+            @yield('content')
+            @include('_partials._right_aside')
+        </div>
+    </main>
+    @include('_partials._footer')
+</div>
+
+@include('_partials._script')
+@include('_modals._auth')
+@include('_modals._recovery')
+@yield('script')
+
+</body>
+</html>

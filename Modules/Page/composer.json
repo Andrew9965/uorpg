@@ -1,0 +1,26 @@
+{
+    "name": "example/page",
+    "description": "",
+    "authors": [
+        {
+            "name": "Developer",
+            "email": "developer@example.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Page\\Providers\\PageServiceProvider"
+            ],
+            "aliases": {
+                
+            },
+            "module-dir": "Page"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Page\\": ""
+        }
+    }
+}

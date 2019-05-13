@@ -1,0 +1,26 @@
+{
+    "name": "example/media",
+    "description": "",
+    "authors": [
+        {
+            "name": "Developer",
+            "email": "developer@example.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Media\\Providers\\MediaServiceProvider"
+            ],
+            "aliases": {
+                
+            },
+            "module-dir": "Media"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Media\\": ""
+        }
+    }
+}

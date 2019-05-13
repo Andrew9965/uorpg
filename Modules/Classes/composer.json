@@ -1,0 +1,26 @@
+{
+    "name": "example/classes",
+    "description": "",
+    "authors": [
+        {
+            "name": "Developer",
+            "email": "developer@example.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Classes\\Providers\\ClassesServiceProvider"
+            ],
+            "aliases": {
+                
+            },
+            "module-dir": "Classes"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Classes\\": ""
+        }
+    }
+}

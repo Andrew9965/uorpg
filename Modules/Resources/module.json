@@ -1,0 +1,16 @@
+{
+    "name": "Resources",
+    "alias": "resources",
+    "description": "Страница ресурсов",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\Resources\\Providers\\ResourcesServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

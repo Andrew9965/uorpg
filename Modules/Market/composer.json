@@ -1,0 +1,26 @@
+{
+    "name": "example/market",
+    "description": "",
+    "authors": [
+        {
+            "name": "Developer",
+            "email": "developer@example.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Market\\Providers\\MarketServiceProvider"
+            ],
+            "aliases": {
+                
+            },
+            "module-dir": "Market"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Market\\": ""
+        }
+    }
+}
